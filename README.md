@@ -20,9 +20,9 @@ CSV File → Load Data → Clean Missing Values → Compute Statistics → Visua
 
 Your dataset should follow this structure:
 
-Model,Accuracy,Precision,Recall,F1_Score
-Model A,0.91,0.89,0.87,0.88
-Model B,0.93,0.91,0.90,0.90
+- Model,Accuracy,Precision,Recall,F1_Score
+- Model A,0.91,0.89,0.87,0.88
+- Model B,0.93,0.91,0.90,0.90
 
 📌 What the Script Does
 1. Data Loading
@@ -37,9 +37,9 @@ Handles missing values using median imputation.
 
 Computes:
 
-Mean
-Median
-Standard Deviation
+- Mean
+- Median
+- Standard Deviation
 
 for each metric.
 
@@ -47,27 +47,27 @@ for each metric.
 
 Generates bar charts for:
 
-Accuracy
-Precision
-Recall
-F1 Score
+- Accuracy
+- Precision
+- Recall
+- F1 Score
 
 📊 Sample Output
 
 After running the script, you will see results like:
 
 Original Dataset:
-Model A | Accuracy: 0.91 | Precision: 0.89 | Recall: 0.87 | F1: 0.88
-Model B | Accuracy: 0.93 | Precision: 0.91 | Recall: 0.90 | F1: 0.90
+- Model A | Accuracy: 0.91 | Precision: 0.89 | Recall: 0.87 | F1: 0.88
+- Model B | Accuracy: 0.93 | Precision: 0.91 | Recall: 0.90 | F1: 0.90
 
 Missing Values:
 All columns contain 0 missing values
 
 Dataset Statistics:
-Mean Accuracy: 0.905
-Mean Precision: 0.8825
-Mean Recall: 0.8675
-Mean F1 Score: 0.8725
+- Mean Accuracy: 0.905
+- Mean Precision: 0.8825
+- Mean Recall: 0.8675
+- Mean F1 Score: 0.8725
 
 📈 Visualization Output
 
