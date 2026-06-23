@@ -73,17 +73,17 @@ Mean F1 Score: 0.8725
 
 The script generates separate bar charts comparing all models across:
 
-Accuracy
-Precision
-Recall
-F1 Score
+- Accuracy
+- Precision
+- Recall
+- F1 Score
 
 Each chart clearly shows performance differences between models.
 
 🧪 Requirements
-Python 3.x
-pandas
-matplotlib
+- Python 3.x
+- pandas
+- matplotlib
 
 Install dependencies:
 
@@ -98,14 +98,14 @@ Make sure ai_models.csv is in the same directory.
 
 This project helps you understand:
 
-Data preprocessing in Python
-Handling missing values
-Basic statistical analysis
-Data visualization techniques
-Comparing ML model performance
+- Data preprocessing in Python
+- Handling missing values
+- Basic statistical analysis
+- Data visualization techniques
+- Comparing ML model performance
 
 🔮 Possible Improvements
-Save charts as image files automatically
-Add interactive plots (Plotly / Seaborn upgrade)
-Export summary report as PDF
-Build a Streamlit dashboard version
+- Save charts as image files automatically
+- Add interactive plots (Plotly / Seaborn upgrade)
+- Export summary report as PDF
+- Build a Streamlit dashboard version
